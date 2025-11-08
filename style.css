@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.name{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+.name:hover{
+    color:#001BB7 ;
+    cursor: pointer;
+}
+body{
+    background-color: #016B61;
+    text-align: center;
+}
+.container{
+    height:  70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+
+    
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 10px black;
+    font-size: 10vmin;
+    background-color: aliceblue;
+    color: black;
+    
+}
+.box:hover{
+    background-color: #c50f0f;
+    cursor: pointer;
+    border-radius: 1rem ;
+    box-shadow: 0 0 10px black;
+}
+.reset{
+    padding: 1em;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+}
+#new-btn{
+     padding: 1em;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+}
+#msg{
+    font-size: 5vmin;
+    color: white;
+}
+.msg-container{
+    height: 20vmin;
+}
+.hide{
+    display: none;
+}
+       
